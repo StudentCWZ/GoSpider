@@ -1,0 +1,17 @@
+mysql:
+  host: "127.0.0.1"
+  user: "root"
+  password: "123456"
+  port: 13306
+  db: "spider"
+
+log:
+  level: "debug"
+  filename: "job_crawler.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+url:
+  area_url: https://js.51jobcdn.com/in/js/2016/layer/area_array_c.js?20210318
+  index_url: https://search.51job.com/list/
